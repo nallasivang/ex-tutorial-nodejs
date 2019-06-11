@@ -4,7 +4,7 @@
   "description": "An interactive tutorial to get started with the Node.js bindings for DAML",
   "main": "index.js",
   "dependencies": {
-    "@digitalasset/daml-ledger": "0.6.1",
+    "@digitalasset/daml-ledger": "^0.6.1",
     "uuid": "3.3.2"
   },
   "scripts": {
@@ -24,11 +24,7 @@
     "dlt",
     "blockchain"
   ],
-  "author": {
-    "name": "Digital Asset (Switzerland) GmbH and/or its affiliates",
-    "email": "support@digitalasset.com",
-    "url": "https://www.digitalasset.com"
-  },
+  "author": "Digital Asset <support@digitalasset.com> (Switzerland)",
   "contributors": [
     "Stefano Baghino <stefano.baghino@digitalasset.com>"
   ],
@@ -36,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/digital-asset/ex-tutorial-nodejs/issues"
   },
-  "homepage": "https://github.com/digital-asset/ex-tutorial-nodejs#readme"
+  "homepage": "https://github.com/digital-asset/ex-tutorial-nodejs#readme",
+  "devDependencies": {}
 }
